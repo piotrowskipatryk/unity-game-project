@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 5851956353944112618}
   - component: {fileID: 7354948104320156574}
   - component: {fileID: 8581238877529832137}
+  - component: {fileID: -1493273038663622393}
   m_Layer: 0
   m_Name: Boximon Cyclopes
   m_TagString: Untagged
@@ -154,7 +155,7 @@ Transform:
   m_GameObject: {fileID: 1111084942782338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6.25, y: 6.25, z: 6.25}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4255938595546462}
@@ -206,7 +207,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ceff387f38db9d4caa8e083bf28de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: []
+  path:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   speed: 1
 --- !u!65 &7354948104320156574
 BoxCollider:
@@ -231,6 +239,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a36e79abdb777c540b21d6fa1f3c0d3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHitPoints: 5
+  currentHitPoints: 0
+--- !u!114 &-1493273038663622393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111084942782338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f174ace25d15824c9c651d8231af500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1159647506406770
