@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4939996705135754}
   - component: {fileID: -7152011256513185596}
+  - component: {fileID: 2657360037331432511}
   m_Layer: 0
   m_Name: TurretTower
   m_TagString: Untagged
@@ -133,6 +134,18 @@ MonoBehaviour:
   weapon: {fileID: 4519941387849242}
   projectileParticles: {fileID: 198732266032438476}
   range: 15
+--- !u!114 &2657360037331432511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326093064322132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590abb7b78c92fb11ab2c595025b7e66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1414511323558576
 GameObject:
   m_ObjectHideFlags: 0
