@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile_Bridge
       objectReference: {fileID: 0}
+    - target: {fileID: 1600462817667086318, guid: c7cf5745b185d1f4b9964fef81ddec6b, type: 3}
+      propertyPath: m_TagString
+      value: Path
+      objectReference: {fileID: 0}
     - target: {fileID: 7965028528793528551, guid: c7cf5745b185d1f4b9964fef81ddec6b, type: 3}
       propertyPath: m_Mesh
       value: 
