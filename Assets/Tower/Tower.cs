@@ -7,9 +7,13 @@ public class Tower : MonoBehaviour
 
     [SerializeField] int cost = 75;
     [SerializeField] float buildDelay = 1f;
+    [SerializeField] AudioClip buildSound;
 
-    private void Start()
+    AudioSource audioSource;
+
+    void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         StartCoroutine(Build());
     }
     public bool CreateTower(Tower tower, Vector3 position)
@@ -32,7 +36,9 @@ public class Tower : MonoBehaviour
 
     IEnumerator Build()
     {
-        foreach(Transform child in transform)
+        audioSource.PlayOneShot(buildSound);
+
+        foreach (Transform child in transform)
         {
             child.gameObject.SetActive(false);
             foreach(Transform grandchild in child)
