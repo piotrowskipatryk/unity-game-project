@@ -28,7 +28,6 @@ public class CoordinateLabeler : MonoBehaviour
         {
             DisplayCoordinates();
             UpdateObjectName();
-            label.enabled = true; //to remove in final ver
         }
 
         SetLabelColor();
