@@ -1,9 +1,9 @@
 **Autorzy:**
 
-Marcin Królikowski, nr albumu 294262\
+Marcin Królikowski, nr albumu 294262  
 Patryk Piotrowski, nr albumu 315564
 
-# Spis treści {#spis-treści .TOC-Heading}
+# Spis treści
 
 [**1.** **Wprowadzenie** [3](#_Toc136015890)](#_Toc136015890)
 
@@ -22,7 +22,7 @@ Patryk Piotrowski, nr albumu 315564
 
 [**8.** **Źródła** [13](#_Toc136015896)](#_Toc136015896)
 
-1.  []{#_Toc136015890 .anchor}**Wprowadzenie**
+1.  <span id="_Toc136015890" class="anchor"></span>**Wprowadzenie**
 
 Przedmiotem projektu jest gra 3D typu Tower Defense na komputery z
 systemem Windows. Jest to popularny gatunek gier, w którym zadaniem
@@ -38,20 +38,20 @@ czy *Plants vs. Zombies*.
 Na rynku dostępnych jest wiele silników gier, pozwalających na
 realizację projektu. Do najpopularniejszych należą:
 
-a.  Unreal Engine -- często używany do tworzenia gier AAA, oferujący
+1.  Unreal Engine – często używany do tworzenia gier AAA, oferujący
     zaawansowane narzędzia graficzne i edytory, pozwalające na tworzenie
     w pełni funkcjonalnych gier 3D. Silnik obsługuje język programowania
     C++, co pozwala na optymalizację wydajności gry, szczególnie przy
     dużych projektach. Unreal Engine oferuje wiele gotowych modułów i
     dodatków, które ułatwiają pracę.
 
-b.  Godot Engine -- to open-source'owy silnik gier, oferujący prosty i
+2.  Godot Engine – to open-source’owy silnik gier, oferujący prosty i
     intuicyjny interfejs. Silnik obsługuje języki programowania takie
     jak, C++ i C#, co daje dużą elastyczność w wyborze zastosowanej
     technologii. Posiada wiele wbudowanych narzędzi i modułów
     ułatwiających prace.
 
-c.  Unity -- popularny silnik gier posiadający prosty i intuicyjny
+3.  Unity – popularny silnik gier posiadający prosty i intuicyjny
     interfejs. Obsługuje język programowania C#. Podobnie jak pozostałe
     silniki, posiada wiele wbudowanych narzędzi i modułów ułatwiających
     projektowanie. Na uwagę zasługuje duże wsparcie społeczności i
@@ -59,10 +59,9 @@ c.  Unity -- popularny silnik gier posiadający prosty i intuicyjny
     początkujących. Unity wspiera wieloplatformowość i pozwala w łatwy
     sposób przenosić gry na inne platformy.
 
-```{=html}
 <!-- -->
-```
-2.  []{#_Toc136015891 .anchor}**Zakres prac**
+
+1.  <span id="_Toc136015891" class="anchor"></span>**Zakres prac**
 
 Założeniem projektu jest wykonanie następujących prac:
 
@@ -85,7 +84,8 @@ Założeniem projektu jest wykonanie następujących prac:
 > dźwiękowych. Zostaną użyte darmowe modele udostępnione przez
 > społeczność.
 
-3.  []{#_Toc136015892 .anchor}**Założenia projektowe**
+1.  <span id="_Toc136015892" class="anchor"></span>**Założenia
+    projektowe**
 
 Do realizacji zadania został wykorzystany silnik gier Unity, z uwagi na
 jego popularność, bogatą dokumentację, duże wsparcie społeczności i
@@ -137,60 +137,135 @@ Rozdzielczość: 1920x1080 16:9
 
 Sterowanie: Mysz
 
-4.  []{#_Toc136015893 .anchor}**Harmonogram prac i podział ról**
+1.  <span id="_Toc136015893" class="anchor"></span>**Harmonogram prac i
+    podział ról**
 
 > Projekt wykonywany jest w dwuosobowym zespole. Podział prac podczas
 
-  ---------------------------------------------------------------------------
-  **Lp**   **Pozycja**                                   **Odpowiedzialny**
-  -------- --------------------------------------------- --------------------
-  1        Określenie wymagań i założeń projektu         MKR, PPI
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 64%" />
+<col style="width: 27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Lp</strong></th>
+<th><strong>Pozycja</strong></th>
+<th><strong>Odpowiedzialny</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Określenie wymagań i założeń projektu</td>
+<td>MKR, PPI</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Dyskusja o sposobie realizacji projektu</td>
+<td>MKR, PPI</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>System kontroli wersji</td>
+<td>PPI</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Projekt siatki</td>
+<td>MKR</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Import modeli i tekstur</td>
+<td>PPI</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Implementacja obsługi myszy</td>
+<td>MKR</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Dodanie przeciwników</td>
+<td>MKR</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Znajdowanie ścieżki (pathfinding)</td>
+<td>MKR</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>System ekonomii</td>
+<td>PPI</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Punkty życia przeciwników</td>
+<td>PPI</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Refaktoryzacja, poprawa błędów</td>
+<td>PPI</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Zaprojektowanie poziomu, balans gry</td>
+<td>MKR</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Opóźnienie budowania</td>
+<td>MKR</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Licznik czasu i przejście do kolejnego poziomu</td>
+<td>MKR</td>
+</tr>
+<tr class="odd">
+<td>16</td>
+<td>Efekty wizualne i post processing</td>
+<td>PPI</td>
+</tr>
+<tr class="even">
+<td>17</td>
+<td>Efekty dźwiękowe</td>
+<td>MKR</td>
+</tr>
+<tr class="odd">
+<td>18</td>
+<td>Licznik czasu i przejście do kolejnego poziomu</td>
+<td>MKR</td>
+</tr>
+<tr class="even">
+<td>19</td>
+<td>Testy i naprawa błędów</td>
+<td>MKR, PPI</td>
+</tr>
+<tr class="odd">
+<td>20</td>
+<td>Kompilacja</td>
+<td>MKR</td>
+</tr>
+<tr class="even">
+<td>21</td>
+<td>Przygotowanie raportu</td>
+<td>MKR</td>
+</tr>
+<tr class="odd">
+<td>22</td>
+<td>Przygotowanie prezentacji</td>
+<td>PPI</td>
+</tr>
+</tbody>
+</table>
 
-  2        Dyskusja o sposobie realizacji projektu       MKR, PPI
-
-  3        System kontroli wersji                        PPI
-
-  4        Projekt siatki                                MKR
-
-  5        Import modeli i tekstur                       PPI
-
-  6        Implementacja obsługi myszy                   MKR
-
-  7        Dodanie przeciwników                          MKR
-
-  8        Znajdowanie ścieżki (pathfinding)             MKR
-
-  9        System ekonomii                               PPI
-
-  10       Punkty życia przeciwników                     PPI
-
-  11       Refaktoryzacja, poprawa błędów                PPI
-
-  12       Zaprojektowanie poziomu, balans gry           MKR
-
-  13       Opóźnienie budowania                          MKR
-
-  14       Licznik czasu i przejście do kolejnego        MKR
-           poziomu                                       
-
-  16       Efekty wizualne i post processing             PPI
-
-  17       Efekty dźwiękowe                              MKR
-
-  18       Licznik czasu i przejście do kolejnego        MKR
-           poziomu                                       
-
-  19       Testy i naprawa błędów                        MKR, PPI
-
-  20       Kompilacja                                    MKR
-
-  21       Przygotowanie raportu                         MKR
-
-  22       Przygotowanie prezentacji                     PPI
-  ---------------------------------------------------------------------------
-
-5.  []{#_Toc136015894 .anchor}**Podstawy teoretyczne i zastosowane
-    rozwiązania**
+1.  <span id="_Toc136015894" class="anchor"></span>**Podstawy
+    teoretyczne i zastosowane rozwiązania**
 
 **Kontrola wersji i synchronizacja**
 
@@ -200,10 +275,8 @@ Sterowanie: Mysz
 > bezproblemowy powrót do poprzedniej, stabilnej wersji gry po
 > napotkaniu błędów, spowodowanych wprowadzeniem nowych rozwiązań.
 >
-> ![Obraz zawierający tekst, zrzut ekranu, oprogramowanie,
-> Oprogramowanie multimedialne Opis wygenerowany
-> automatycznie](.//media/image1.png){width="6.3in"
-> height="2.6555555555555554in"}
+> <img src=".//media/image1.png" style="width:6.3in;height:2.65556in"
+> alt="Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Oprogramowanie multimedialne Opis wygenerowany automatycznie" />
 >
 > *Rysunek 1. Klient GitHub Desktop użyty do kontroli wersji*
 >
@@ -216,10 +289,8 @@ Sterowanie: Mysz
 > i pozwala na bezpośredni import zakupionych modeli do projektu.
 > Wszystkie źródła zostały umieszczone w ostatnim rozdziale.
 >
-> ![Obraz zawierający tekst, zrzut ekranu, oprogramowanie,
-> Oprogramowanie multimedialne Opis wygenerowany
-> automatycznie](.//media/image2.png){width="6.3in"
-> height="3.408333333333333in"}
+> <img src=".//media/image2.png" style="width:6.3in;height:3.40833in"
+> alt="Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Oprogramowanie multimedialne Opis wygenerowany automatycznie" />
 >
 > *Rysunek 2. Unity Asset Store*
 >
@@ -233,8 +304,8 @@ Sterowanie: Mysz
 > konfigurowanie parametrów zachowania obiektów i mechaniki gry z
 > poziomu edytora Unity.
 >
-> ![](.//media/image3.png){width="6.285416666666666in"
-> height="3.672222222222222in"}
+> <img src=".//media/image3.png"
+> style="width:6.28542in;height:3.67222in" />
 >
 > *Rysunek 3. Prefabrykat przeciwnika i powiązane z nim skrypty wraz z
 > udostępnionymi do edycji polami serializedfield*
@@ -244,7 +315,7 @@ Sterowanie: Mysz
 > Istotnym aspektem projektu było zapewnienie płynnej rozgrywki,
 > niezależnie od sprzętu, na którym zostanie uruchomiona gra. Aby
 > spełnić ten warunek, wykorzystano tekstury i modele o niskim poziomie
-> szczegółowości i detalach, w stylu „kreskówkowym". Po stronie kodu,
+> szczegółowości i detalach, w stylu „kreskówkowym”. Po stronie kodu,
 > głównym wyzwaniem optymalizacyjnym było stworzenie fali przeciwników
 > bez nadmiernego obciążenia zasobów sprzętowych. W tym celu
 > wykorzystaliśmy technikę poolingu obiektów (ang. object pooling),
@@ -254,13 +325,13 @@ Sterowanie: Mysz
 > wydajniejsza niż tworzenie i niszczenie obiektu każdego przeciwnika
 > pojawiającego się na mapie.
 >
-> ![](.//media/image4.png){width="6.285416666666666in"
-> height="2.928472222222222in"}
+> <img src=".//media/image4.png"
+> style="width:6.28542in;height:2.92847in" />
 >
 > *Rysunek 4. Pula przeciwników na poziomie 1. Aktywnych jest 3
 > przeciwników z 5 obiektowej puli.*
 
-6.  **Prezentacja i opis otrzymanych wyników**
+1.  **Prezentacja i opis otrzymanych wyników**
 
 **System siatki**
 
@@ -269,9 +340,8 @@ Każdy kafelek posiada unikalną współrzędną w świecie gry. Współrzędne
 wykorzystywane są w innych elementach gry: do stawiania budowli oraz
 odnajdywania ścieżki przez przeciwników.
 
-![Obraz zawierający zrzut ekranu, kwadrat, piksel Opis wygenerowany
-automatycznie](.//media/image5.png){width="3.363183508311461in"
-height="3.1310345581802275in"}
+<img src=".//media/image5.png" style="width:3.36318in;height:3.13103in"
+alt="Obraz zawierający zrzut ekranu, kwadrat, piksel Opis wygenerowany automatycznie" />
 
 Rysunek 5. System siatki z zaznaczonymi współrzędnymi
 
@@ -293,8 +363,8 @@ Kafelki zajęte przez obiekty otoczenia (ścieżka, scenografia, baza
 gracza i przeciwnika) są wyłączone z możliwości budowania na nich wież
 (mają wyłączony parametr isPlaceable).
 
-![](.//media/image6.jpeg){width="6.29375in"
-height="3.561111111111111in"}
+<img src=".//media/image6.jpeg"
+style="width:6.29375in;height:3.56111in" />
 
 *Rysunek 6. Zaznaczony obszar mapy gry z oznaczonymi zajętymi miejscami
 niedostępnymi do budowy wieży.*
@@ -304,8 +374,8 @@ niedostępnymi do budowy wieży.*
 Interfejs zawiera informacje o ilości zgromadzonego złota oraz o czasie
 pozostałym do końca poziomu.
 
-![](.//media/image7.jpeg){width="6.29375in"
-height="3.561111111111111in"}
+<img src=".//media/image7.jpeg"
+style="width:6.29375in;height:3.56111in" />
 
 Rysunek 7. Interfejs użytkownika
 
@@ -333,8 +403,8 @@ gry oraz porusza się z określoną prędkością (speed). Przeciwnicy
 pojawiający się na mapie wraz z upływem czasu mają więcej punktów życia
 (maxHitPoints + difficultyRamp).
 
-![](.//media/image8.png){width="4.386111111111111in"
-height="1.2979166666666666in"}
+<img src=".//media/image8.png"
+style="width:4.38611in;height:1.29792in" />
 
 *Rysunek 8. Baza gracza (niebieski) i punkt startowy przeciwników
 (czerwony).*
@@ -346,14 +416,14 @@ postawienia wieży przez gracza na wolnym kafelku, do jej gotowości do
 ataku trwa budowanie wieży. Czas ten jest określony przez zmienną
 buildDelay.
 
-![](.//media/image9.png){width="5.061111111111111in"
-height="1.7458333333333333in"}
+<img src=".//media/image9.png"
+style="width:5.06111in;height:1.74583in" />
 
 *Rysunek 9. Wieża w trakcie budowy (po lewej) i zbudowana wieża gotowa
 do ataku (po prawej).*
 
-![](.//media/image10.jpeg){width="6.289583333333334in"
-height="3.2194444444444446in"}
+<img src=".//media/image10.jpeg"
+style="width:6.28958in;height:3.21944in" />
 
 *Rysunek 10. Wieża i jej zasięg. W zasięgu wieży znajduje się dwóch
 przeciwników, wieża atakuje cel bliższy sobie.*
@@ -366,15 +436,13 @@ szereg różnych efektów, takich jak filtry kolorów, rozmycie, efekty
 świetlne. Poniżej przedstawiono porównanie poziomu z włączonym i
 wyłączonym post-processingiem.
 
-![Obraz zawierający zabawka Opis wygenerowany
-automatycznie](.//media/image11.png){width="6.3in"
-height="3.2423611111111112in"}
+<img src=".//media/image11.png" style="width:6.3in;height:3.24236in"
+alt="Obraz zawierający zabawka Opis wygenerowany automatycznie" />
 
 *Rysunek 11. Poziom z post-processingiem*
 
-![Obraz zawierający zabawka, Minecraft Opis wygenerowany
-automatycznie](.//media/image12.png){width="6.3in"
-height="3.2604166666666665in"}
+<img src=".//media/image12.png" style="width:6.3in;height:3.26042in"
+alt="Obraz zawierający zabawka, Minecraft Opis wygenerowany automatycznie" />
 
 *Rysunek 12. Poziom bez post-processingu*
 
@@ -390,7 +458,8 @@ platformie GitHub:
 Aby zakończyć działanie programu, należy skorzystać ze skrótu
 klawiszowego Alt + F4.
 
-7.  []{#_Toc136015895 .anchor}**Podsumowanie zastosowanego rozwiązania**
+1.  <span id="_Toc136015895" class="anchor"></span>**Podsumowanie
+    zastosowanego rozwiązania**
 
 W ramach projektu udało stworzyć się funkcjonalną grę 3D typu tower
 defense i zaimplementować charakterystyczne dla tego gatunku mechaniki i
@@ -410,29 +479,29 @@ użyte mechaniki są dobrze skalowalne. Rozwijając projekt dalej, można
 będzie za pomocą funkcji wbudowanych w silnik Unity wykonać port na
 urządzenia mobilne.
 
-8.  []{#_Toc136015896 .anchor}**Źródła**
+1.  <span id="_Toc136015896" class="anchor"></span>**Źródła**
 
 **audio:**
 
-a)  https://freesound.org/people/sonically_sound/sounds/624644
+1.  https://freesound.org/people/sonically\_sound/sounds/624644
 
-b)  https://freesound.org/people/TheoJT/sounds/511311
+2.  https://freesound.org/people/TheoJT/sounds/511311
 
-c)  https://freesound.org/people/LittleRobotSoundFactory/sounds/270309
+3.  https://freesound.org/people/LittleRobotSoundFactory/sounds/270309
 
 **modele przeciwników i scenografii:**
 
-a)  *Forest - Low Poly Toon Battle Arena / Tower Defense Pack*
+1.  *Forest - Low Poly Toon Battle Arena / Tower Defense Pack*
     <https://assetstore.unity.com/packages/3d/environments/forest-low-poly-toon-battle-arena-tower-defense-pack-100080>
 
-b)  *Goblin & Cannon*
+2.  *Goblin & Cannon*
     <https://assetstore.unity.com/packages/3d/environments/fantasy/goblin-cannon-145437>
 
-c)  *Meshtint Free Tile Map Mega Toon Series*
+3.  *Meshtint Free Tile Map Mega Toon Series*
     <https://assetstore.unity.com/packages/3d/environments/meshtint-free-tile-map-mega-toon-series-153619>
 
-d)  *Meshtint Free Boximon Cyclopes Mega Toon Series*
+4.  *Meshtint Free Boximon Cyclopes Mega Toon Series*
     <https://assetstore.unity.com/packages/3d/characters/meshtint-free-boximon-cyclopes-mega-toon-series-154436>
 
-e)  *Meshtint Free Turret Tower Mega Toon Series*
+5.  *Meshtint Free Turret Tower Mega Toon Series*
     <https://assetstore.unity.com/packages/3d/environments/fantasy/meshtint-free-turret-tower-mega-toon-series-155310>
