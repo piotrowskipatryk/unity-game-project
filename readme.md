@@ -1,4 +1,5 @@
-**Demo**
+**Demo:**
+
 https://patryk.org/unity-tower-defense/
 
 **Autorzy:**
@@ -8,22 +9,19 @@ Patryk Piotrowski, nr albumu 315564
 
 # Spis treści
 
-**1.** **Wprowadzenie** [1](#_Toc136015890)
+[**1.** **Wprowadzenie**](#_Toc136015890)
 
-**2.** **Zakres prac** [2](#_Toc136015891)
+[**2.** **Zakres prac**](#_Toc136015891)
 
-**3.** **Założenia projektowe** [3](#_Toc136015892)
+[**3.** **Założenia projektowe**](#_Toc136015892)
 
-**4.** **Harmonogram prac i podział ról**
-[4](#_Toc136015893)
+[**4.** **Harmonogram prac i podział ról**](#_Toc136015893)
 
-**5.** **Podstawy teoretyczne i zastosowane rozwiązania**
-[5](#_Toc136015894)
+[**5.** **Podstawy teoretyczne i zastosowane rozwiązania**](#_Toc136015894)
 
-**6.** **Podsumowanie zastosowanego rozwiązania**
-[6](#_Toc136015895)
+[**6.** **Podsumowanie zastosowanego rozwiązania**](#_Toc136015895)
 
-**7.** **Źródła** [7](#_Toc136015896)
+[**7.** **Źródła**](#_Toc136015896)
 
 1.  <span id="_Toc136015890" class="anchor"></span>**Wprowadzenie**
 
