@@ -1,3 +1,6 @@
+**Demo**
+https://patryk.org/unity-tower-defense/
+
 **Autorzy:**
 
 Marcin Królikowski, nr albumu 294262  
@@ -5,22 +8,22 @@ Patryk Piotrowski, nr albumu 315564
 
 # Spis treści
 
-[**1.** **Wprowadzenie** [3](#_Toc136015890)](#_Toc136015890)
+**1.** **Wprowadzenie** [3](#_Toc136015890)
 
-[**2.** **Zakres prac** [3](#_Toc136015891)](#_Toc136015891)
+**2.** **Zakres prac** [3](#_Toc136015891)
 
-[**3.** **Założenia projektowe** [4](#_Toc136015892)](#_Toc136015892)
+**3.** **Założenia projektowe** [4](#_Toc136015892)
 
-[**4.** **Harmonogram prac i podział ról**
-[4](#_Toc136015893)](#_Toc136015893)
+**4.** **Harmonogram prac i podział ról**
+[4](#_Toc136015893)
 
-[**5.** **Podstawy teoretyczne i zastosowane rozwiązania**
-[5](#_Toc136015894)](#_Toc136015894)
+**5.** **Podstawy teoretyczne i zastosowane rozwiązania**
+[5](#_Toc136015894)
 
-[**7.** **Podsumowanie zastosowanego rozwiązania**
-[12](#_Toc136015895)](#_Toc136015895)
+**7.** **Podsumowanie zastosowanego rozwiązania**
+[12](#_Toc136015895)
 
-[**8.** **Źródła** [13](#_Toc136015896)](#_Toc136015896)
+**8.** **Źródła** [13](#_Toc136015896)
 
 1.  <span id="_Toc136015890" class="anchor"></span>**Wprowadzenie**
 
@@ -61,7 +64,7 @@ realizację projektu. Do najpopularniejszych należą:
 
 <!-- -->
 
-1.  <span id="_Toc136015891" class="anchor"></span>**Zakres prac**
+2.  <span id="_Toc136015891" class="anchor"></span>**Zakres prac**
 
 Założeniem projektu jest wykonanie następujących prac:
 
@@ -84,7 +87,7 @@ Założeniem projektu jest wykonanie następujących prac:
 > dźwiękowych. Zostaną użyte darmowe modele udostępnione przez
 > społeczność.
 
-1.  <span id="_Toc136015892" class="anchor"></span>**Założenia
+3.  <span id="_Toc136015892" class="anchor"></span>**Założenia
     projektowe**
 
 Do realizacji zadania został wykorzystany silnik gier Unity, z uwagi na
@@ -137,7 +140,7 @@ Rozdzielczość: 1920x1080 16:9
 
 Sterowanie: Mysz
 
-1.  <span id="_Toc136015893" class="anchor"></span>**Harmonogram prac i
+4.  <span id="_Toc136015893" class="anchor"></span>**Harmonogram prac i
     podział ról**
 
 > Projekt wykonywany jest w dwuosobowym zespole. Podział prac podczas
@@ -264,7 +267,7 @@ Sterowanie: Mysz
 </tbody>
 </table>
 
-1.  <span id="_Toc136015894" class="anchor"></span>**Podstawy
+5.  <span id="_Toc136015894" class="anchor"></span>**Podstawy
     teoretyczne i zastosowane rozwiązania**
 
 **Kontrola wersji i synchronizacja**
