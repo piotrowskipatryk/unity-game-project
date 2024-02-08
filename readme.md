@@ -332,7 +332,7 @@ Sterowanie: Mysz
 > *Rysunek 4. Pula przeciwników na poziomie 1. Aktywnych jest 3
 > przeciwników z 5 obiektowej puli.*
 
-6.  **Prezentacja i opis otrzymanych wyników**
+5.  **Prezentacja i opis otrzymanych wyników**
 
 **System siatki**
 
@@ -459,7 +459,7 @@ platformie GitHub:
 Aby zakończyć działanie programu, należy skorzystać ze skrótu
 klawiszowego Alt + F4.
 
-1.  <span id="_Toc136015895" class="anchor"></span>**Podsumowanie
+6.  <span id="_Toc136015895" class="anchor"></span>**Podsumowanie
     zastosowanego rozwiązania**
 
 W ramach projektu udało stworzyć się funkcjonalną grę 3D typu tower
