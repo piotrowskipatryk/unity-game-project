@@ -8,11 +8,11 @@ Patryk Piotrowski, nr albumu 315564
 
 # Spis treści
 
-**1.** **Wprowadzenie** [3](#_Toc136015890)
+**1.** **Wprowadzenie** [1](#_Toc136015890)
 
-**2.** **Zakres prac** [3](#_Toc136015891)
+**2.** **Zakres prac** [2](#_Toc136015891)
 
-**3.** **Założenia projektowe** [4](#_Toc136015892)
+**3.** **Założenia projektowe** [3](#_Toc136015892)
 
 **4.** **Harmonogram prac i podział ról**
 [4](#_Toc136015893)
@@ -20,10 +20,10 @@ Patryk Piotrowski, nr albumu 315564
 **5.** **Podstawy teoretyczne i zastosowane rozwiązania**
 [5](#_Toc136015894)
 
-**7.** **Podsumowanie zastosowanego rozwiązania**
-[12](#_Toc136015895)
+**6.** **Podsumowanie zastosowanego rozwiązania**
+[6](#_Toc136015895)
 
-**8.** **Źródła** [13](#_Toc136015896)
+**7.** **Źródła** [7](#_Toc136015896)
 
 1.  <span id="_Toc136015890" class="anchor"></span>**Wprowadzenie**
 
@@ -334,7 +334,7 @@ Sterowanie: Mysz
 > *Rysunek 4. Pula przeciwników na poziomie 1. Aktywnych jest 3
 > przeciwników z 5 obiektowej puli.*
 
-1.  **Prezentacja i opis otrzymanych wyników**
+6.  **Prezentacja i opis otrzymanych wyników**
 
 **System siatki**
 
@@ -482,7 +482,7 @@ użyte mechaniki są dobrze skalowalne. Rozwijając projekt dalej, można
 będzie za pomocą funkcji wbudowanych w silnik Unity wykonać port na
 urządzenia mobilne.
 
-1.  <span id="_Toc136015896" class="anchor"></span>**Źródła**
+7.  <span id="_Toc136015896" class="anchor"></span>**Źródła**
 
 **audio:**
 
